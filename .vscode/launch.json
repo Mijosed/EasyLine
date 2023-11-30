@@ -1,0 +1,165 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main8",
+            "request": "launch",
+            "mainClass": "Main8",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main7",
+            "request": "launch",
+            "mainClass": "Main7",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Home_admin",
+            "request": "launch",
+            "mainClass": "Home_admin",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Home_user",
+            "request": "launch",
+            "mainClass": "Home_user",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Home",
+            "request": "launch",
+            "mainClass": "Home",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main6",
+            "request": "launch",
+            "mainClass": "Main6",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main5",
+            "request": "launch",
+            "mainClass": "Main5",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main4",
+            "request": "launch",
+            "mainClass": "Main4",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main3",
+            "request": "launch",
+            "mainClass": "Main3",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "Main2",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Easyline_4029d29a",
+            "vmArgs": "--module-path \"C:/Users/mijos/Downloads/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AdressePostaleDAO",
+            "request": "launch",
+            "mainClass": "AdressePostaleDAO",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "BagageDAO",
+            "request": "launch",
+            "mainClass": "BagageDAO",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "Compagnie",
+            "request": "launch",
+            "mainClass": "Compagnie",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "Pilote",
+            "request": "launch",
+            "mainClass": "Pilote",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "Voyageur",
+            "request": "launch",
+            "mainClass": "Voyageur",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "VoyageurDAO",
+            "request": "launch",
+            "mainClass": "VoyageurDAO",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "VoyageurParticularite",
+            "request": "launch",
+            "mainClass": "VoyageurParticularite",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "VoyageurPrivilege",
+            "request": "launch",
+            "mainClass": "VoyageurPrivilege",
+            "projectName": "Easyline_4029d29a"
+        },
+        {
+            "type": "java",
+            "name": "connexionBDD",
+            "request": "launch",
+            "mainClass": "connexionBDD",
+            "projectName": "Easyline_4029d29a"
+        }
+    ]
+}

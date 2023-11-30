@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListeVoyageController">
+   <children>
+      <Text layoutX="290.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liste des vols  ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tableau" layoutX="125.0" layoutY="113.0" prefHeight="200.0" prefWidth="483.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="39.0" text="Id" />
+          <TableColumn fx:id="compagnie" prefWidth="91.0" text="Compagnie" />
+            <TableColumn fx:id="lieu_depart" prefWidth="93.0" text="Lieu de départ" />
+            <TableColumn fx:id="lieu_arrivee" prefWidth="107.0" text="Lieu d'arrivée" />
+            <TableColumn fx:id="date" minWidth="0.0" prefWidth="76.0" text="Date" />
+            <TableColumn fx:id="prix" prefWidth="75.0" text="Prix ($)" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

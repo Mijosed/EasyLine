@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home_admincontroller">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Enregistrement">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#savevols" text="Vols" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="Suppression">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#deletevols" text="Vols" />
+                  <MenuItem mnemonicParsing="false" onAction="#deletevoyageur" text="Voyageur" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Liste">
+              <items>
+            <MenuItem mnemonicParsing="false" onAction="#listvols" text="Vols" />
+                <MenuItem mnemonicParsing="false" onAction="#listvoyageur" text="Voyageur" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Quitter">
+              <items>
+            <MenuItem fx:id="quitter" mnemonicParsing="false" onAction="#quitter" text="Quit" />
+              </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="205.0" layoutY="161.0" prefHeight="27.0" prefWidth="230.0" style="&#10;" text="Appli Admin" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="28.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
